@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.about {
+  text-align: center;
+  margin: auto;
+}
+.about a {
+  color: rgb(5, 29, 249);
+  text-decoration: none;
+}
+.img {
+  float: left;
+  margin: 10px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  float: right;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+.header-container .names {
+  display: flex;
+  align-items: center;
+}
+.header-container .names a {
+  text-decoration: none;
+  margin-right: 20px; /* Adjust spacing as needed */
+  color: rgb(255, 255, 255);
+}
+.header-container .links {
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+.header-container .links a {
+  text-decoration: none;
+  margin-left: 20px; /* Adjust spacing as needed */
+  color: rgb(255, 255, 255);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-rows: repeat(2, 1fr); /* 2 rows */
+  gap: 10px; /* Adjust spacing between items */
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
+
+.grid-item {
+  color: #ffffff;
+  padding: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  border: 0.1px solid #ffffff;
+  width: 300px;
+  height: 350px;
+}
+
+.grid-image {
+  display: block;
+  margin: 10px auto; /* Center the image horizontally */
+  max-width: 100%; /* Ensure the image fits within the grid item */
+}
+.videos video {
+  margin: 30px;
+}
+.videos {
+  text-align: center;
+}
